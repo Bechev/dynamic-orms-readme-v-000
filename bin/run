@@ -14,7 +14,7 @@ DB[:conn].execute("SELECT * FROM songs")
 
 dog = Song.new(name: "Fido", breed: "Teckel")
 puts "dog name: " + dog.name
-puts "dog album: " + dog.breed
+puts "dog breed: " + dog.breed
 dog.save
 
 DB[:conn].execute("SELECT * FROM songs")
